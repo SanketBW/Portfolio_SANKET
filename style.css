@@ -1,4 +1,30 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sections {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-top: 2px; */
+}
+.navigation-bar{
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+}
+.sections h2{
+    margin: 50px;
 }
