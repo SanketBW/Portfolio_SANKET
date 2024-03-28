@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/portfolio-2432090-2058964.png?f=webp">
-
+    <title>Sanket Portfolio</title>
+    <link rel="icon" href="https://p7.hiclipart.com/preview/354/914/433/career-portfolio-portfolio-icon-thumbnail.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -17,15 +15,12 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-
-
-    <title>Portfolio Sanket</title>
 </head>
 
 <body>
-    <div class="navigation-bar">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-            <a class="navbar-brand" href="#"><span class="name">Sanket Wakchaure</span></a>
+    <div class="navbars">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" id="name" href="#">Sanket Wakchaure</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,49 +29,80 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home"> <span class="nav-menu">Home</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#about"> <span class="nav-menu">About</span></a>
+                        <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#project"> <span class="nav-menu">Project</span></a>
+                        <a class="nav-link" href="#skill">Skills <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#skills"> <span class="nav-menu">Skills</span></a>
+                        <a class="nav-link" href="#project">Project <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#contact"> <span class="nav-menu">Contact</span></a>
+                        <a class="nav-link" href="#contact">Contact <span class="sr-only"></span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <!-- Navbar Ends -->
-
-    <section id="home" class="sections">
-        <div class="home-icon">
-            <!-- <img src="PHP-Developers.gif" alt=""> -->
-        </div>
-        <div class="home-info">
-            <span>Hi ,</span><br>
-            <span class="space">My name is <span class="namec">Sanket</span></span><br>
-            <span class="space">I am <span class="check">Full Stack Developer</span></span><br>
-            <button type="button" class="btn btn-primary">Resume</button>
-        </div>
-    </section>
-    <section id="about" class="sections">
-        <h2>About</h2>
-    </section>
-    <section id="project" class="sections">
-        <h2>Project</h2>
-    </section>
-    <section id="skills" class="sections">
-        <h2>Skills</h2>
-    </section>
-    <section id="contact" class="sections">
-        <h2>Contact</h2>
-    </section>
+    <!-- Navbar End -->
+    <div id="sect">
+        <section class="section" id="home">
+            <div id="intro">
+                <span>Hi ,</span><br>
+                <span class="space">My name is <span class="namec"><i>Sanket</i></span></span><br>
+                <span class="space">I am <span class="check"><i>Full Stack Developer ...</i></span></span><br>
+                <span id="under"></span>
+                <button type="button" class="btn"><a href="Sanket_new_Resume.pdf" download="Sanket_Resume">Download
+                        Resume</a></button>
+            </div>
+            <div id="img-1">
+                <img src="https://www.web24zone.com/wp-content/uploads/2022/10/46207-programmer-1.gif" alt="Web Devs">
+            </div>
+        </section>
+        <section class="section" id="about">
+            <span class="info">
+                <h2>About</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatum quas. Repellat dolores
+                    facilis id ipsa nostrum obcaecati mollitia possimus atque, hic, quod at illo? Dignissimos, impedit
+                    quia, ut perferendis nisi voluptatem maxime aperiam magnam tempora iusto omnis eligendi architecto
+                    autem laudantium eum nesciunt est soluta nostrum suscipit? Adipisci debitis quod sit odit eos
+                    reprehenderit veritatis ullam tenetur delectus ratione nemo, possimus accusantium eveniet libero
+                    cumque facilis iste voluptatum perferendis numquam vel dolorem repellat molestias voluptates
+                    dolores. Quasi dolores ratione eligendi ad maiores. Suscipit qui facere corrupti veniam aut fuga.
+                </h4>
+            </span>
+            <span class="phto">
+                <img src="DSC_7040 copy.jpg" alt="Photo">
+            </span>
+        </section>
+        <section class="section" id="skill">
+            <span class="info">
+                <h2>Skills</h2>
+            </span>
+            <span class="skills">
+                <h3>SkillSet 1</h3>
+            </span>
+            <span class="skills">
+                <h3>SkillSet 2</h3>
+            </span>
+            <span class="skills">
+                <h3>SkillSet 3</h3>
+            </span>
+            <span class="skills">
+                <h3>SkillSet 4</h3>
+            </span>
+        </section>
+        <section class="section" id="project">
+            <h1>Project</h1>
+        </section>
+        <section class="section" id="contact">
+            <h1>Contact</h1>
+        </section>
+    </div>
+    <!-- Section End -->
 </body>
 
 </html>
