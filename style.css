@@ -438,6 +438,7 @@ textarea {
 /* Responsive Site :  */
 
 @media only screen and (max-width: 400px) {
+
     #intro {
         margin-left: 30px;
         margin-top: 330px;
@@ -455,6 +456,7 @@ textarea {
         width: 180px;
         position: relative;
         top: -50px;
+        z-index: -1;
     }
 
     #img-1 img {
@@ -477,6 +479,8 @@ textarea {
         /* line-height: 1.2; */
         word-spacing: 4px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+        right: 15px;
     }
 
     @keyframes moving {
@@ -509,14 +513,18 @@ textarea {
     }
 
     #skill {
-        height: 988px;
+        height: 1002px;
     }
 
     .card_edit {
         display: inline-block;
         margin-top: 2%;
-        margin-left: 5.5%;
+        margin-left: 2.3%;
         z-index: -1;
+        width: 24rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #project{
+        height: 590px;
     }
 }
