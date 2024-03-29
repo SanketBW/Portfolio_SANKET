@@ -454,7 +454,7 @@ textarea {
         height: 44px;
         width: 180px;
         position: relative;
-        top: 48px;
+        top: -50px;
     }
 
     #img-1 img {
@@ -483,7 +483,22 @@ textarea {
         word-spacing: 4px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
+    @keyframes moving {
+        from {
+            background-color: tomato;
+            left: 0px;
+            width: 5px;
+        }
+    
+        to {
+            background-color: yellow;
+            left: 105px;
+            width: 115px;
+        }
+    }
+    #home{
+        height: 195px;
+    }
     #about {
         height: 1058px;
     }
