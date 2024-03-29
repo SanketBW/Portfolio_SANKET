@@ -456,12 +456,6 @@ textarea {
         margin-left: 96px;
     }
     .phto img {
-        height: 450px;
-        width: 350px;
-        margin-left: 120px;
-        border-radius: 50%;
-        /* border: 0.8px solid black; */
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-top: -820px;
+        margin-top: -1220px;
     }
 }
