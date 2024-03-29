@@ -440,7 +440,7 @@ textarea {
 @media only screen and (max-width: 400px) {
     #intro {
         margin-left: 30px;
-        margin-top: 302px;
+        margin-top: 307px;
         position: relative;
         top: 75px;
         z-index: -1;
@@ -448,14 +448,15 @@ textarea {
         font-weight: bolder;
     }
 
-    #img-1 img {
-        height: 323px;
-        width: 420px;
-        border-radius: 30%;
-        margin-top: -1043px;
-        margin-left: 100px;
+    .btn_1 {
+        margin-left: 50px;
     }
-    .phto img {
-        margin-top: -1220px;
+
+    #img-1 img {
+        height: 371px;
+        width: 540px;
+        border-radius: 30%;
+        margin-top: -670px;
+        margin-left: 14px;
     }
 }
