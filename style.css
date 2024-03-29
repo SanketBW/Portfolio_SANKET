@@ -465,13 +465,8 @@ textarea {
         margin-left: 22px;
     }
 
-    .phto img {
-        height: 361px;
-        width: 362px;
-        margin-left: 71px;
-        border-radius: 50%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-top: -6592px;
+    #home {
+        height: 195px;
     }
 
     .info h4 {
@@ -483,24 +478,34 @@ textarea {
         word-spacing: 4px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
     @keyframes moving {
         from {
             background-color: tomato;
             left: 0px;
             width: 5px;
         }
-    
+
         to {
             background-color: yellow;
             left: 115px;
             width: 140px;
         }
     }
-    #home{
-        height: 195px;
-    }
+
+
     #about {
         height: 1335px;
+    }
+
+    .phto img {
+        height: 310px;
+        width: 307px;
+        margin-left: 47px;
+        border-radius: 5%;
+        /* border: 0.8px solid black; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: -2222px;
     }
 
     #skill {
