@@ -440,24 +440,27 @@ textarea {
 @media only screen and (max-width: 400px) {
     #intro {
         margin-left: 30px;
-        margin-top: 307px;
+        margin-top: 330px;
         position: relative;
         top: 75px;
         z-index: -1;
-        font-size: x-large;
+        font-size: large;
         font-weight: bolder;
     }
 
     .btn_1 {
+        mask-type: 100px;
         margin-left: 50px;
+        height: 44px;
+        width: 168px;
     }
 
     #img-1 img {
-        height: 371px;
-        width: 540px;
+        height: 260px;
+        width: 308px;
         border-radius: 30%;
-        margin-top: -670px;
-        margin-left: 14px;
+        margin-top: -746px;
+        margin-left: 0px;
     }
 
     .phto img {
