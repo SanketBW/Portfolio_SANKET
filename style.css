@@ -442,7 +442,7 @@ textarea {
         margin-left: 30px;
         margin-top: 330px;
         position: relative;
-        top: 75px;
+        top: 25px;
         z-index: -1;
         font-size: large;
         font-weight: bolder;
@@ -452,15 +452,17 @@ textarea {
         mask-type: 100px;
         margin-left: 50px;
         height: 44px;
-        width: 168px;
+        width: 180px;
+        position: relative;
+        top: 48px;
     }
 
     #img-1 img {
         height: 260px;
-        width: 308px;
+        width: 372px;
         border-radius: 30%;
         margin-top: -746px;
-        margin-left: 0px;
+        margin-left: 22px;
     }
 
     .phto img {
