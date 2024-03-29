@@ -439,8 +439,8 @@ textarea {
 
 @media only screen and (max-width: 400px) {
     #intro {
-        margin-left: 27px;
-        margin-top: 352px;
+        margin-left: 35px;
+        margin-top: 302px;
         position: relative;
         top: 75px;
         z-index: -1;
