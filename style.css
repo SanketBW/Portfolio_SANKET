@@ -465,7 +465,6 @@ textarea {
         width: 362px;
         margin-left: 71px;
         border-radius: 50%;
-        /* border: 0.8px solid black; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-top: -6592px;
     }
@@ -482,5 +481,17 @@ textarea {
 
     #about {
         height: 800px;
+    }
+
+    #skill {
+        height: 800px;
+    }
+
+    .card_edit {
+        display: inline-block;
+        margin-top: 2%;
+        margin-left: 5.5%;
+        z-index: -1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
