@@ -479,7 +479,7 @@ textarea {
         margin-top: 362px;
         text-indent: 80px;
         text-align: justify;
-        line-height: 1.2;
+        /* line-height: 1.2; */
         word-spacing: 4px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -500,7 +500,7 @@ textarea {
         height: 195px;
     }
     #about {
-        height: 1058px;
+        height: 1335px;
     }
 
     #skill {
