@@ -468,4 +468,13 @@ textarea {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-top: -6592px;
     }
+    .info h4 {
+        margin-left: 33px;
+        margin-top: 362px;
+        text-indent: 80px;
+        text-align: justify;
+        line-height: 1.2;
+        word-spacing: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
