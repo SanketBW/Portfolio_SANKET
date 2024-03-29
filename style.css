@@ -459,4 +459,13 @@ textarea {
         margin-top: -670px;
         margin-left: 14px;
     }
+    .phto img {
+        height: 361px;
+        width: 362px;
+        margin-left: 71px;
+        border-radius: 50%;
+        /* border: 0.8px solid black; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: -6592px;
+    }
 }
