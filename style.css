@@ -671,8 +671,8 @@ textarea {
 
         to {
             background-color: yellow;
-            left: 220px;
-            width: 200px;
+            left: 240px;
+            width: 220px;
         }
     }
 
@@ -698,7 +698,7 @@ textarea {
         width: 250px;
         margin-left: 13px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-top: -605px;
+        margin-top: -580px;
         border-radius: 71px;
     }
 
@@ -717,11 +717,11 @@ textarea {
     }
 
     .cimg_1 {
-        height: 100px;
+        height: 150px;
     }
 
     .cimg_2 {
-        height: 100px;
+        height: 150px;
     }
 
     .crdpr {
