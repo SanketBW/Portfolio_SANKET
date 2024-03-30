@@ -548,7 +548,7 @@ textarea {
         border-radius: 5%;
         /* border: 0.8px solid black; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-top: -2300px;
+        margin-top: -2500px;
     }
 
     #skill {
@@ -580,7 +580,7 @@ textarea {
         margin-top: 2%;
         margin-left: 2.5%;
         z-index: -1;
-        width: 22.5rem;
+        width: 23.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
