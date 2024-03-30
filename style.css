@@ -504,7 +504,8 @@ textarea {
 
     #home {
         height: 195px;
-        width: 90%;
+        overflow: hidden;
+
     }
 
     .info h4 {
@@ -536,7 +537,8 @@ textarea {
 
     #about {
         height: 1478px;
-        width: 90%;
+        overflow: hidden;
+
     }
 
     .phto img {
@@ -551,17 +553,19 @@ textarea {
 
     #skill {
         height: 1030px;
-        width: 100%;
+        overflow: hidden;
     }
 
     #Project {
         height: 1002px;
-        width: 100%;
+        overflow: hidden;
+
     }
 
     #contact {
         height: 800px;
-        width: 100%;
+        overflow: hidden;
+
     }
 
     .card_edit {
