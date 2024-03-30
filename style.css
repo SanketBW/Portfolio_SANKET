@@ -626,9 +626,9 @@ textarea {
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) and (max-width: 800px) {
     #home {
-        height: 430px;
+        height: 400px;
         overflow: hidden;
 
     }
