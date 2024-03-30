@@ -573,6 +573,14 @@ textarea {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    .carousel-control-prev-icon {
+        margin-top: 520px;
+    }
+
+    .carousel-control-next-icon {
+        margin-top: 520px;
+    }
+
     .form-control {
         border-radius: 12px;
         width: 330px;
@@ -585,7 +593,7 @@ textarea {
         margin-right: 726px;
     }
 
-  
+
     .color-change-2x {
         width: 365px;
         height: 610px;
