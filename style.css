@@ -303,6 +303,7 @@ html {
     margin-top: 2%;
     margin-left: 12%;
     z-index: -1;
+    width: 30rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -412,7 +413,11 @@ textarea {
 .bi {
     font-size: xx-large;
     font-weight: bolder;
-    margin-left: 60px;
+}
+
+.spn {
+    padding: 20px;
+    margin-left: 30px;
 }
 
 .bi-github {
@@ -524,7 +529,37 @@ textarea {
         width: 24rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    #project{
-        height: 590px;
+
+    .form-control {
+        border-radius: 12px;
+        width: 360px;
+        margin-left: 14px;
+        margin-top: 20px;
+        padding: 20px;
     }
+
+    .color-change-2x {
+        width: 385px;
+        height: 610px;
+    }
+
+    .send_btn {
+        margin-left: 136px;
+    }
+
+    .social {
+        display: inline-flex;
+        left: -255px;
+        top: 500px;
+    }
+
+    .social h2 {
+        display: none;
+    }
+
+    .spn {
+        padding: 43px;
+        margin-left: -71px;
+    }
+
 }
