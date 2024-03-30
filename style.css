@@ -535,7 +535,7 @@ textarea {
 
 
     #about {
-        height: 1335px;
+        height: 1478px;
         width: 90%;
     }
 
@@ -546,11 +546,11 @@ textarea {
         border-radius: 5%;
         /* border: 0.8px solid black; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-top: -2222px;
+        margin-top: -2500px;
     }
 
     #skill {
-        height: 1102px;
+        height: 1030px;
         width: 100%;
     }
 
@@ -567,9 +567,9 @@ textarea {
     .card_edit {
         display: inline-block;
         margin-top: 2%;
-        margin-left: 2.3%;
+        margin-left: 3%;
         z-index: -1;
-        width: 22.5rem;
+        width: 23.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -597,7 +597,7 @@ textarea {
     .color-change-2x {
         width: 365px;
         height: 610px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .send_btn {
