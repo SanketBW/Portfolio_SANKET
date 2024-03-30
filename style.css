@@ -710,14 +710,14 @@ textarea {
     .card_edit {
         display: inline-block;
         margin-top: 2%;
-        margin-left: 0.8%;
+        margin-left: 0.5%;
         z-index: -1;
-        width: 29.5rem;
+        width: 30rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .crdpr {
-        margin-right: 220px;
+        margin-right: 360px;
     }
 
     .form-control {
@@ -737,7 +737,7 @@ textarea {
     .color-change-2x {
         width: 900px;
         height: 610px;
-        margin-left: 48px;
+        margin-left: 45px;
     }
 
     .send_btn {
