@@ -442,7 +442,7 @@ textarea {
 
 /* Responsive Site :  */
 
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 400px) {
 
     #intro {
         margin-left: 30px;
@@ -526,20 +526,20 @@ textarea {
         margin-top: 2%;
         margin-left: 2.3%;
         z-index: -1;
-        width: 24rem;
+        width: 22.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .form-control {
         border-radius: 12px;
-        width: 360px;
+        width: 330px;
         margin-left: 14px;
         margin-top: 20px;
         padding: 20px;
     }
 
     .color-change-2x {
-        width: 385px;
+        width: 365px;
         height: 610px;
     }
 
@@ -559,7 +559,7 @@ textarea {
 
     .spn {
         padding: 43px;
-        margin-left: -71px;
+        margin-left: -54px;
     }
 
 }
