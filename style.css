@@ -568,6 +568,13 @@ textarea {
 
     }
 
+    .cimg_1 {
+        height: 100px;
+    }
+    .cimg_2 {
+        height: 100px;
+    }
+
     .card_edit {
         display: inline-block;
         margin-top: 2%;
