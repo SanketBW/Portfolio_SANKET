@@ -712,12 +712,12 @@ textarea {
         margin-top: 2%;
         margin-left: 0.8%;
         z-index: -1;
-        width: 29.2rem;
+        width: 29.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .crdpr {
-        margin-right: 130px;
+        margin-right: 220px;
     }
 
     .form-control {
@@ -735,7 +735,7 @@ textarea {
     }
 
     .color-change-2x {
-        width: 930px;
+        width: 900px;
         height: 610px;
         margin-left: 48px;
     }
@@ -745,7 +745,7 @@ textarea {
     }
 
     .social {
-        left: 90px;
+        left: 68px;
         top: 59px;
     }
 
