@@ -571,6 +571,7 @@ textarea {
     .cimg_1 {
         height: 100px;
     }
+
     .cimg_2 {
         height: 100px;
     }
@@ -582,14 +583,6 @@ textarea {
         z-index: -1;
         width: 23.8rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .carousel-control-prev-icon {
-        margin-top: 520px;
-    }
-
-    .carousel-control-next-icon {
-        margin-top: 520px;
     }
 
     .form-control {
@@ -629,5 +622,131 @@ textarea {
         padding: 43px;
         margin-left: -54px;
     }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    #home {
+        height: 430px;
+        overflow: hidden;
+
+    }
+
+    #intro {
+        margin-left: 45px;
+        margin-top: 272px;
+        position: relative;
+        top: -188px;
+        z-index: -1;
+        font-size: x-large;
+    }
+
+    .btn_1 {
+        mask-type: 100px;
+        margin-left: 70px;
+        height: 44px;
+        width: 180px;
+        position: relative;
+        top: -258px;
+        z-index: -1;
+    }
+
+    #img-1 img {
+        height: 260px;
+        width: 372px;
+        border-radius: 30%;
+        margin-top: -746px;
+        margin-left: 439px;
+    }
+
+
+    @keyframes moving {
+        from {
+            background-color: tomato;
+            left: 0px;
+            width: 5px;
+        }
+
+        to {
+            background-color: yellow;
+            left: 160px;
+            width: 130px;
+        }
+    }
+
+    #about {
+        height: 746px;
+        overflow: hidden;
+
+    }
+
+    .info h4 {
+        margin-left: 280px;
+        margin-top: 50px;
+        text-indent: 80px;
+        text-align: justify;
+        /* line-height: 1.2; */
+        word-spacing: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+        right: 3px;
+    }
+
+    .phto img {
+        height: 308px;
+        width: 250px;
+        margin-left: 13px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: -949px;
+        border-radius: 71px;
+    }
+
+    #skill {
+        height: 645px;
+        overflow: hidden;
+    }
+
+    .card_edit {
+        display: inline-block;
+        margin-top: 2%;
+        margin-left: 1.5%;
+        z-index: -1;
+        width: 23.8rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .crdpr {
+        margin-right: 413px;
+    }
+
+    .form-control {
+        border-radius: 12px;
+        width: 474px;
+        margin-left: 61px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .color-change-2x {
+        width: 771px;
+        height: 610px;
+        margin-left: 14px;
+    }
+
+    .send_btn {
+        margin-left: 240px;
+    }
+
+    .social {
+        left: 36px;
+        top: 59px;
+    }
+
+    .spn {
+        padding: 14px;
+        margin-left: 40px;
+    }
+
 
 }
