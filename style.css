@@ -550,7 +550,7 @@ textarea {
     }
 
     #skill {
-        height: 1002px;
+        height: 1102px;
         width: 100%;
     }
 
@@ -611,15 +611,4 @@ textarea {
         margin-left: -54px;
     }
 
-    .mob {
-        /* margin-left: 56px; */
-    }
-
-}
-
-
-@media only screen and (min-width: 1400px) {
-    .mob {
-        display: none;
-    }
 }
