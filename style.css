@@ -627,7 +627,7 @@ textarea {
 
 
 @media only screen and (min-width: 410px) and (max-width: 1024px) {
-  
+
     #home {
         height: 400px;
         overflow: hidden;
@@ -716,8 +716,16 @@ textarea {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    .cimg_1 {
+        height: 100px;
+    }
+
+    .cimg_2 {
+        height: 100px;
+    }
+
     .crdpr {
-        margin-right: 360px;
+        margin-right: 380px;
     }
 
     .form-control {
