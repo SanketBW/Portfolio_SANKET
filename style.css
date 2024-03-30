@@ -171,11 +171,9 @@ body {
 }
 
 .nav-link:hover {
-    color: dodgerblue;
+    color: goldenrod;
     text-decoration: underline;
     text-underline-offset: 5px;
-    transform: scale(1.06, 1.1);
-    transition-duration: 1s;
 
 }
 
@@ -433,12 +431,38 @@ textarea {
 }
 
 .social h2 {
-    color: blue;
+    color: rgb(0, 213, 255);
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+.blink-1 {
+	-webkit-animation: blink-1 3s infinite both;
+	        animation: blink-1 3s infinite both;
+}
 
-
+ @-webkit-keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
 
 /* Responsive Site :  */
 
@@ -537,6 +561,13 @@ textarea {
         margin-top: 20px;
         padding: 20px;
     }
+    .crdpr{
+        margin-right: 25px;
+    }
+    .crdpr1{
+        margin-right: 195px;
+        margin-top: -10px;
+    }
 
     .color-change-2x {
         width: 365px;
@@ -562,4 +593,11 @@ textarea {
         margin-left: -54px;
     }
 
+}
+
+
+@media only screen and (max-width: 1496px) {
+    .crdpr_2{
+        display: none;
+    }
 }
