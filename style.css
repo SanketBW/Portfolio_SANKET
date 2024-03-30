@@ -544,7 +544,7 @@ textarea {
     .phto img {
         height: 310px;
         width: 307px;
-        margin-left: 47px;
+        margin-left: 44px;
         border-radius: 5%;
         /* border: 0.8px solid black; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -578,7 +578,7 @@ textarea {
     .card_edit {
         display: inline-block;
         margin-top: 2%;
-        margin-left: 3%;
+        margin-left: 2.5%;
         z-index: -1;
         width: 22.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -608,7 +608,7 @@ textarea {
     .color-change-2x {
         width: 365px;
         height: 610px;
-        margin-left: 10px;
+        margin-left: 8px;
     }
 
     .send_btn {
