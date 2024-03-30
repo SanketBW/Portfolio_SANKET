@@ -545,6 +545,10 @@ textarea {
         height: 1002px;
     }
 
+    #Project {
+        height: 1002px;
+    }
+
     .card_edit {
         display: inline-block;
         margin-top: 2%;
