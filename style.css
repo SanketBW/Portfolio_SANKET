@@ -625,7 +625,7 @@ textarea {
 
 }
 
-
+/*
 @media only screen and (min-width: 600px) {
     #home {
         height: 430px;
@@ -686,7 +686,6 @@ textarea {
         margin-top: 50px;
         text-indent: 80px;
         text-align: justify;
-        /* line-height: 1.2; */
         word-spacing: 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: relative;
@@ -756,3 +755,4 @@ textarea {
 
 
 }
+*/
