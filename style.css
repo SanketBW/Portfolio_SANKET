@@ -640,7 +640,7 @@ textarea {
         position: relative;
         top: -188px;
         z-index: -1;
-        font-size: x-large;
+        font-size: xx-large;
     }
 
     .btn_1 {
@@ -654,11 +654,11 @@ textarea {
     }
 
     #img-1 img {
-        height: 260px;
-        width: 372px;
+        height: 288px;
+        width: 429px;
         border-radius: 30%;
-        margin-top: -746px;
-        margin-left: 439px;
+        margin-top: -701px;
+        margin-left: 596px;
     }
 
 
@@ -677,7 +677,7 @@ textarea {
     }
 
     #about {
-        height: 746px;
+        height: 595px;
         overflow: hidden;
 
     }
@@ -698,7 +698,7 @@ textarea {
         width: 250px;
         margin-left: 13px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-top: -949px;
+        margin-top: -605px;
         border-radius: 71px;
     }
 
@@ -710,19 +710,19 @@ textarea {
     .card_edit {
         display: inline-block;
         margin-top: 2%;
-        margin-left: 1.5%;
+        margin-left: 2.3%;
         z-index: -1;
-        width: 23.8rem;
+        width: 29.8rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .crdpr {
-        margin-right: 413px;
+        margin-right: 130px;
     }
 
     .form-control {
         border-radius: 12px;
-        width: 474px;
+        width: 555px;
         margin-left: 61px;
         margin-top: 20px;
         padding: 20px;
@@ -735,9 +735,9 @@ textarea {
     }
 
     .color-change-2x {
-        width: 771px;
+        width: 930px;
         height: 610px;
-        margin-left: 14px;
+        margin-left: 48px;
     }
 
     .send_btn {
@@ -745,7 +745,7 @@ textarea {
     }
 
     .social {
-        left: 36px;
+        left: 90px;
         top: 59px;
     }
 
