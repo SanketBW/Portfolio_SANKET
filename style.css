@@ -472,7 +472,7 @@ textarea {
 
 /* Responsive Site :  */
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 400px) {
 
     #intro {
         margin-left: 30px;
@@ -536,7 +536,7 @@ textarea {
 
 
     #about {
-        height: 1478px;
+        height: 1366px;
         overflow: hidden;
 
     }
