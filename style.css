@@ -573,7 +573,7 @@ textarea {
         margin-top: 2%;
         margin-left: 3%;
         z-index: -1;
-        width: 23.5rem;
+        width: 22.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -594,7 +594,7 @@ textarea {
     }
 
     .crdpr {
-        margin-right: 770px;
+        margin-right: 800px;
     }
 
 
