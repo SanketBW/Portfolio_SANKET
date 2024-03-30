@@ -582,18 +582,10 @@ textarea {
     }
 
     .crdpr {
-        margin-right: 735px;
+        margin-right: 726px;
     }
 
-    .crdpr_3 {
-        height: fit-content;
-    }
-
-    /* .crdpr1{
-        margin-right: 195px;
-        margin-top: -10px;
-    } */
-
+  
     .color-change-2x {
         width: 365px;
         height: 610px;
@@ -617,6 +609,10 @@ textarea {
     .spn {
         padding: 43px;
         margin-left: -54px;
+    }
+
+    .mob {
+        /* margin-left: 56px; */
     }
 
 }
