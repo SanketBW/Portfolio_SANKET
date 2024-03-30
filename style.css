@@ -709,7 +709,7 @@ textarea {
 
     .card_edit {
         display: inline-block;
-        margin-top: 2%;
+        margin-top: 5%;
         margin-left: 0.5%;
         z-index: -1;
         width: 30rem;
