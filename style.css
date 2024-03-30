@@ -536,7 +536,7 @@ textarea {
 
 
     #about {
-        height: 1366px;
+        height: 1266px;
         overflow: hidden;
 
     }
@@ -608,7 +608,7 @@ textarea {
     .color-change-2x {
         width: 365px;
         height: 610px;
-        margin-left: 8px;
+        margin-left: 9px;
     }
 
     .send_btn {
