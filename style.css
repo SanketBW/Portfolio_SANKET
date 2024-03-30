@@ -728,6 +728,12 @@ textarea {
         padding: 20px;
     }
 
+    #contact {
+        height: 744px;
+        overflow: hidden;
+
+    }
+
     .color-change-2x {
         width: 771px;
         height: 610px;
