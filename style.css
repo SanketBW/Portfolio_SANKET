@@ -710,9 +710,9 @@ textarea {
     .card_edit {
         display: inline-block;
         margin-top: 2%;
-        margin-left: 2.3%;
+        margin-left: 0.8%;
         z-index: -1;
-        width: 29.8rem;
+        width: 29.2rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
