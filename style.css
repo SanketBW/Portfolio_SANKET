@@ -625,8 +625,8 @@ textarea {
 
 }
 
-/*
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 400px) {
     #home {
         height: 430px;
         overflow: hidden;
@@ -755,4 +755,3 @@ textarea {
 
 
 }
-*/
