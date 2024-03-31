@@ -294,6 +294,7 @@ html {
     line-height: 1.8;
     word-spacing: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: -1;
 }
 
 .card_edit {
@@ -519,6 +520,7 @@ textarea {
         word-spacing: 4px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: relative;
+        z-index: -1;
         right: 15px;
     }
 
@@ -550,7 +552,7 @@ textarea {
         border-radius: 5%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         /* margin-top: -1880px; */
-        margin-top: -1900px;
+        margin-top: -1890px;
     }
 
     #skill {
@@ -787,6 +789,7 @@ textarea {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: relative;
         right: 3px;
+        z-index: -1;
     }
 
     .phto img {
