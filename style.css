@@ -20,6 +20,7 @@ body {
     background-color: rgb(44, 43, 43);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .arow {
     position: fixed;
     bottom: 15px;
@@ -238,32 +239,36 @@ html {
     }
 }
 
-.btn_1 {
-    margin-top: 100px;
-    border: none;
-    background-color: dodgerblue;
-    border-radius: 12px;
+.but {
     margin-left: 180px;
+    margin-top: 110px;
+    /* padding: 12px; */
     height: 50px;
-    width: 200px;
-    font-weight: bolder;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
+    width: 165px;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    transition-duration: 0.5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
+    border: none;
 }
 
-.btn_1:hover {
-    background-color: blueviolet;
-    transition-duration: 1s;
-    transition-delay: 0.2s;
-    border-bottom: 1px solid black;
-}
-
-.btn_1 a {
+.but a {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
     text-decoration: none;
-    color: white;
+
+}
+
+.but:hover {
+    background-color: #fff;
+    border: 3px solid dodgerblue;
+    transition-duration: 1s;
+    transform-style: 1;
+}
+
+.but a:hover {
+    color: dodgerblue;
 }
 
 .phto img {
@@ -395,6 +400,7 @@ textarea {
     margin-bottom: 15px;
     width: 100px;
 }
+
 .social {
     position: relative;
     left: 60px;
@@ -486,6 +492,35 @@ textarea {
         position: relative;
         top: -34px;
         z-index: -1;
+        display: none;
+    }
+
+    .but {
+        margin-left: 95px;
+        margin-top: 65px;
+        padding: 10px;
+        border-radius: 12px;
+        background-color: dodgerblue;
+        transition-duration: 0.5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: none;
+    }
+
+    .but a {
+        color: #fff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .but:hover {
+        background-color: #fff;
+        border: 3px solid dodgerblue;
+        /* transform-style: 2; */
+    }
+
+    .but a:hover {
+        color: royalblue;
     }
 
     .btn_1:hover {
@@ -499,7 +534,7 @@ textarea {
         height: 260px;
         width: 372px;
         border-radius: 30%;
-        margin-top: -810px;
+        margin-top: -690px;
         margin-left: 14px;
     }
 
@@ -569,6 +604,7 @@ textarea {
         overflow: hidden;
 
     }
+
     .cimg_1 {
         height: 165px;
     }
@@ -736,21 +772,33 @@ textarea {
         font-size: x-large;
     }
 
-    .btn_1 {
-        mask-type: 100px;
-        margin-left: 70px;
-        height: 44px;
-        width: 180px;
+    .but {
+        margin-left: 57px;
         position: relative;
-        top: -258px;
-        z-index: -1;
+        top: -262px;
+        padding: 10px;
+        border-radius: 12px;
+        background-color: dodgerblue;
+        transition-duration: 0.5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: none;
     }
 
-    .btn_1:hover {
-        background-color: blueviolet;
-        transition-duration: 1s;
-        transition-delay: 0.1s;
-        border-bottom: 1px solid black;
+    .but a {
+        color: #fff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .but:hover {
+        background-color: #fff;
+        border: 3px solid dodgerblue;
+        /* transform-style: 2; */
+    }
+
+    .but a:hover {
+        color: royalblue;
     }
 
     #img-1 img {
@@ -987,22 +1035,43 @@ textarea {
         font-size: xx-large;
     }
 
-    .btn_1 {
-        mask-type: 100px;
-        margin-left: 70px;
-        height: 44px;
-        width: 180px;
+    .but {
+        margin-left: 57px;
         position: relative;
-        top: -258px;
-        z-index: -1;
+        top: -262px;
+        padding: 10px;
+        border-radius: 12px;
+        background-color: dodgerblue;
+        transition-duration: 0.5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: none;
     }
 
-    .btn_1:hover {
-        background-color: blueviolet;
-        transition-duration: 1s;
-        transition-delay: 0.1s;
-        border-bottom: 1px solid black;
+    .but a {
+        color: #fff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        text-decoration: none;
     }
+
+    .but:hover {
+        background-color: #fff;
+        border: 3px solid dodgerblue;
+        /* transform-style: 2; */
+    }
+
+    .but a:hover {
+        color: royalblue;
+    }
+
+    #img-1 img {
+        height: 288px;
+        width: 431px;
+        border-radius: 30%;
+        margin-top: -630px;
+        margin-left: 428px;
+    }
+
 
     #img-1 img {
         height: 288px;
