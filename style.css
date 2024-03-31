@@ -171,7 +171,7 @@ body {
 }
 
 .nav-link:hover {
-    color: goldenrod;
+    color: rgba(113, 245, 19, 0.811);
     text-decoration: underline;
     text-underline-offset: 5px;
 
@@ -565,7 +565,7 @@ textarea {
     }
 
     #contact {
-        height: 744px;
+        height: 790px;
         overflow: hidden;
 
     }
@@ -776,6 +776,55 @@ textarea {
         height: 595px;
         overflow: hidden;
 
+    }
+
+    .slide-in-blurred-bottom {
+        -webkit-animation: slide-in-blurred-bottom 1s linear both;
+        animation: slide-in-blurred-bottom 1s linear both;
+    }
+
+    @-webkit-keyframes slide-in-blurred-bottom {
+        0% {
+            -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+            -webkit-filter: blur(40px);
+            filter: blur(40px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            -webkit-filter: blur(0);
+            filter: blur(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-in-blurred-bottom {
+        0% {
+            -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+            -webkit-filter: blur(40px);
+            filter: blur(40px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            -webkit-filter: blur(0);
+            filter: blur(0);
+            opacity: 1;
+        }
     }
 
     .info h4 {
