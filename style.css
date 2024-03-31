@@ -475,7 +475,7 @@ textarea {
 
 /* Responsive Site :  */
 
-@media only screen and (max-width: 496px) {
+@media only screen and (max-width: 400px) {
     #intro {
         margin-left: 30px;
         margin-top: 330px;
@@ -607,7 +607,7 @@ textarea {
     }
 
     .info a {
-        padding-left: 90px;
+        padding-left: 92px;
         z-index: -1;
     }
 
