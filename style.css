@@ -242,7 +242,6 @@ html {
 .but {
     margin-left: 180px;
     margin-top: 110px;
-    /* padding: 12px; */
     height: 50px;
     width: 165px;
     border-radius: 15px;
@@ -485,20 +484,12 @@ textarea {
         font-weight: bolder;
     }
 
-    .btn_1 {
-        margin-left: 95px;
-        height: 50px;
-        width: 180px;
-        position: relative;
-        top: -34px;
-        z-index: -1;
-        display: none;
-    }
-
     .but {
         margin-left: 95px;
         margin-top: 65px;
-        padding: 10px;
+        /* padding: 10px; */
+        height: 50px;
+        width: 165px;
         border-radius: 12px;
         background-color: dodgerblue;
         transition-duration: 0.5s;
@@ -776,7 +767,9 @@ textarea {
         margin-left: 57px;
         position: relative;
         top: -262px;
-        padding: 10px;
+        /* padding: 10px; */
+        height: 50px;
+        width: 165px;
         border-radius: 12px;
         background-color: dodgerblue;
         transition-duration: 0.5s;
@@ -1040,7 +1033,9 @@ textarea {
         position: relative;
         top: -262px;
         padding: 10px;
-        border-radius: 12px;
+        /* border-radius: 12px; */
+        height: 50px;
+        width: 165px;
         background-color: dodgerblue;
         transition-duration: 0.5s;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
