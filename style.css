@@ -475,7 +475,7 @@ textarea {
 
 /* Responsive Site :  */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 396px) and (min-width:596px) {
 
     #intro {
         margin-left: 30px;
@@ -551,7 +551,7 @@ textarea {
         border-radius: 5%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         /* margin-top: -1880px; */
-        margin-top: -2000px;
+        margin-top: -1920px;
     }
 
     #skill {
@@ -723,7 +723,7 @@ textarea {
 }
 
 
-@media only screen and (min-width: 410px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
     #home {
         height: 400px;
