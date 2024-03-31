@@ -548,7 +548,7 @@ textarea {
         border-radius: 5%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         /* margin-top: -1880px; */
-        margin-top: -2030px;
+        margin-top: -1830px;
     }
 
     #skill {
@@ -569,11 +569,11 @@ textarea {
     }
 
     .cimg_1 {
-        height: 150px;
+        height: 165px;
     }
 
     .cimg_2 {
-        height: 150px;
+        height: 165px;
     }
 
     .card_edit {
