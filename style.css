@@ -496,6 +496,13 @@ textarea {
         z-index: -1;
     }
 
+    .btn_1:hover {
+        background-color: blueviolet;
+        transition-duration: 1s;
+        transition-delay: 0.1s;
+        border-bottom: 1px solid black;
+    }
+
     #img-1 img {
         height: 260px;
         width: 372px;
@@ -747,7 +754,12 @@ textarea {
         top: -258px;
         z-index: -1;
     }
-
+    .btn_1:hover {
+        background-color: blueviolet;
+        transition-duration: 1s;
+        transition-delay: 0.1s;
+        border-bottom: 1px solid black;
+    }
     #img-1 img {
         height: 288px;
         width: 431px;
@@ -991,7 +1003,12 @@ textarea {
         top: -258px;
         z-index: -1;
     }
-
+    .btn_1:hover {
+        background-color: blueviolet;
+        transition-duration: 1s;
+        transition-delay: 0.1s;
+        border-bottom: 1px solid black;
+    }
     #img-1 img {
         height: 288px;
         width: 429px;
