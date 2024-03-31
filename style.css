@@ -243,7 +243,7 @@ html {
     margin-left: 180px;
     margin-top: 110px;
     height: 50px;
-    width: 165px;
+    width: 200px;
     border-radius: 15px;
     background-color: dodgerblue;
     transition-duration: 0.5s;
@@ -489,7 +489,7 @@ textarea {
         margin-top: 65px;
         /* padding: 10px; */
         height: 50px;
-        width: 165px;
+        width: 200px;
         border-radius: 12px;
         background-color: dodgerblue;
         transition-duration: 0.5s;
@@ -769,7 +769,7 @@ textarea {
         top: -262px;
         /* padding: 10px; */
         height: 50px;
-        width: 165px;
+        width: 200px;
         border-radius: 12px;
         background-color: dodgerblue;
         transition-duration: 0.5s;
@@ -1035,7 +1035,7 @@ textarea {
         padding: 10px;
         /* border-radius: 12px; */
         height: 50px;
-        width: 165px;
+        width: 200px;
         background-color: dodgerblue;
         transition-duration: 0.5s;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
