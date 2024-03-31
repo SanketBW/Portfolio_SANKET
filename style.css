@@ -608,7 +608,8 @@ textarea {
     }
 
     .info a {
-        padding-left: 100px;
+        padding-left: 90px;
+        z-index: -1;
     }
 
     .info .cn {
