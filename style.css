@@ -481,19 +481,18 @@ textarea {
         margin-left: 30px;
         margin-top: 330px;
         position: relative;
-        top: 25px;
+        top: 1px;
         z-index: -1;
         font-size: large;
         font-weight: bolder;
     }
 
     .btn_1 {
-        mask-type: 100px;
-        margin-left: 50px;
-        height: 44px;
+        margin-left: 114px;
+        height: 50px;
         width: 180px;
         position: relative;
-        top: -50px;
+        top: -34px;
         z-index: -1;
     }
 
@@ -501,7 +500,7 @@ textarea {
         height: 260px;
         width: 372px;
         border-radius: 30%;
-        margin-top: -746px;
+        margin-top: -818px;
         margin-left: 14px;
     }
 
@@ -552,7 +551,7 @@ textarea {
         border-radius: 5%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         /* margin-top: -1880px; */
-        margin-top: -1890px;
+        margin-top: -2000px;
     }
 
     #skill {
@@ -830,7 +829,7 @@ textarea {
     }
 
     .crdpr {
-        margin-right: 582px;
+        margin-right: 280px;
     }
 
     .form-control {
