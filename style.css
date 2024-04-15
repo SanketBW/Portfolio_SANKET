@@ -238,7 +238,6 @@ html {
         width: 260px;
     }
 }
-
 .but {
     margin-left: 180px;
     margin-top: 110px;
@@ -250,8 +249,8 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
 }
-
-.but a {
+ 
+.but {
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
@@ -260,10 +259,11 @@ html {
 }
 
 .but:hover {
+    color: dodgerblue;
     background-color: #fff;
     border: 3px solid dodgerblue;
-    transition-duration: 1s;
-    transform-style: 1;
+    transition-duration: 2s;
+    /* transform-style: 1; */
 }
 
 .but a:hover {
