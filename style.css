@@ -168,7 +168,9 @@ body {
 .nav-link {
     color: #fff;
 }
-
+:link{
+    cursor: pointer !important;
+}
 .nav-link:hover {
     color: rgba(113, 245, 19, 0.811);
     text-decoration: underline;
@@ -244,7 +246,7 @@ html {
     height: 50px;
     width: 200px;
     border-radius: 15px;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     transition-duration: 0.5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
